@@ -4,7 +4,8 @@ print("*********************************")
 numero_secretto = 42
 total_de_tentativas = 3
 rodada = 1
-
+for rodade in range (1, total_de_tentativas + 1)
+  print("Tentativas {} de {}". for)
 while (rodada <= total_de_tentativas):
     print("Tentativa {} de {}".format(rodada, total_de_tentativas))
 
