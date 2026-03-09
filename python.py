@@ -5,11 +5,12 @@ print("*********************************")
 
 numero_secreto = random.randrange(1,101)
 total_de_tentativas = 3
-pontos = 1000
+pontos = 3
 
 print("Qual o nível de dificuldade?")
 print("(1) Fácil (2) Médio (3) Difícil")
 
+nivel = int(input("Defina o nível: "))
 for rodada in range(1, total_de_tentativas + 1):
     print("Tentativa {} de {}".format(rodada, total_de_tentativas))
     chute_str = input("Digite um número entre 1 e 100: ")
