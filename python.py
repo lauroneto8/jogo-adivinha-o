@@ -3,9 +3,12 @@ print("*********************************")
 print("Bem vindo ao jogo de Adivinhação!")
 print("*********************************")
 
-numero_secreto = 42 = random.randrange(1,101)
+numero_secreto = random.randrange(1,101)
 total_de_tentativas = 3
 pontos = 1000
+
+print("Qual o nível de dificuldade?")
+print("(1) Fácil (2) Médio (3) Difícil")
 
 for rodada in range(1, total_de_tentativas + 1):
     print("Tentativa {} de {}".format(rodada, total_de_tentativas))
